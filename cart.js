@@ -112,7 +112,7 @@ let productosencarrito = []
         }
         sumatotal -= elementosCocina[i].precio
         finaltotal.innerText = `$${sumatotal}`
-        if (productosencarrito.length >= 5) {
+        if (productosencarrito.length > 5) {
           finaltotal.innerText = `$${(sumatotal)-5}`  
         }
     }
